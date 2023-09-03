@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Elbrus-Bootcamp/core-css-layout-site#readme",
   "devDependencies": {
-    "husky": "^8.0.0",
+    "husky": "^8.0.3",
     "pretty-quick": "^3.1.3"
   }
 }
