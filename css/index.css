@@ -1,0 +1,128 @@
+html {
+  width: 100vw;
+  height: 160vh;
+  background-color: rgb(193, 145, 153);
+}
+.nav {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 60px;
+  font-size: 30px;
+  font-weight: 300;
+  background-color: rgb(193, 145, 153);
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.nav a:hover {
+  font-size: larger;
+  text-decoration: underline;
+}
+.icons {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.icons img {
+  width: 50px;
+  height: 50px;
+  transition: 1s;
+}
+.icons img:hover {
+  transform: scale(1.5);
+}
+#about {
+  width: 100%;
+  height: 1200px;
+  background-color: whitesmoke;
+}
+#about img {
+  width: 220px;
+
+  border-radius: 18px;
+  transition: 1s;
+}
+#about img:hover {
+  transform: scale(1.5);
+}
+.first {
+  position: relative;
+  top: 150px;
+  left: 300px;
+}
+#experience {
+  width: 600px;
+  height: 200px;
+  margin: 150px 600px;
+  background-color: rgb(193, 145, 153);
+}
+#contacts {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  top: 300px;
+  left: 700px;
+}
+#name {
+  position: relative;
+  width: 460px;
+  top: -200px;
+  left: 700px;
+  color: rgb(193, 145, 153);
+}
+.work {
+  position: relative;
+  left: 1100px;
+  top: -200px;
+}
+#doctor {
+  position: relative;
+  width: 560px;
+  top: -450px;
+  left: 350px;
+}
+
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 50px;
+}
+
+#hobby {
+  position: relative;
+  color: rgb(193, 145, 153);
+  width: 760px;
+  top: -350px;
+  left: 500px;
+}
+.lake {
+  position: relative;
+  top: -350px;
+  left: 710px;
+}
+.relax {
+  position: relative;
+  top: -400px;
+  left: 250px;
+}
+.cat {
+  position: relative;
+  top: -400px;
+  left: 485px;
+}
+h1 {
+  position: relative;
+  left: -350px;
+  top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: azure;
+}
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: azure;
+  margin-bottom: 70px;
+}

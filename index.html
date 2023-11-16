@@ -1,12 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-</head>
-<body>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="nav">
+        <div class="logo"></div>
+        <div><a href="#about">давай знакомиться</a></div>
+        <div><a href="#experience">смотри, что умею</a></div>
+        <div><a href="#contacts">как меня найти</a></div>
+      </div>
+      <section id="about" class="text">
+        <img class="first" src="images/meAmster.jpeg" alt="me_in_Amster" />
+        <p id="name">
+          Привет! Я Катерина. Мне уже не 18, но я все-еще полна оптимизма и
+          желания что-то менять. Например, профессию... или
+          <em>шрифты на твоем сайте</em>
+        </p>
 
-</body>
+        <img class="work" src="images/AtWork.jpg" alt="me at work" />
+        <p id="doctor">
+          В прошлом - успешный доктор, принявший решение уйти из медицины и
+          стать не менее успешным Frontend-разработчиком.
+        </p>
+        <p id="hobby">
+          Люблю путешествия, бег по утрам, хайкинг, хороший кофе с круассаном,
+          котиков/собачек и фотографировать
+        </p>
+        <img class="lake" src="images/lake.jpg" alt="lake" />
+        <img class="relax" src="images/relax.jpg" alt="relax" />
+        <img class="cat" src="images/greeceCat.jpg" alt="cat" />
+      </section>
+      <section id="experience">
+        <h1>Я уже умею...</h1>
+        <ul class="text">
+          <li>Верстать странички по макету</li>
+          <li>делать таск-менеджер на JS</li>
+          <li>Отличать JS от Java</li>
+          <li>
+            Не плакать, когда что-то не работает, а искать решение проблемы в
+            документации и гугле
+          </li>
+          <li>
+            мой код
+            <a href="//github.com/hamsterTears" target="_blank"
+              ><img
+                src="images/git.png"
+                target="_blank"
+                style="width: 30px; margin: 5px"
+            /></a>
+          </li>
+        </ul>
+      </section>
+      <section id="contacts">
+        <h2>Ты можешь связаться со мной</h2>
+        <div class="icons">
+          <div>
+            <a href="//t.me/@K_eiler" target="_blank"
+              ><img src="images/teleg.png"
+            /></a>
+          </div>
+          <div>
+            <a href=""><img src="images/wa.png" /></a>
+          </div>
+          <div>
+            <a href=""><img src="images/gmail.png" /></a>
+          </div>
+          <div>
+            <a href="//instagram.com/kat_reiserin" target="_blank"
+              ><img src="images/inst.png"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
